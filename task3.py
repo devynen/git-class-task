@@ -10,3 +10,18 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+
+money = [1000, 1200, 800, 1500, 1100]
+
+
+#to calculate total amount so far
+total_amount=sum(money)
+print(f"total amount is:",total_amount)
+
+#to replace 800 with 1000
+money[2]= 1000
+print(money)
+
+#to list in reverse order
+reverse=money[::-1]
+print(reverse) 
