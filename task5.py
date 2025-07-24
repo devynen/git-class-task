@@ -35,8 +35,9 @@ new_friends=friends[0:3]
 print(new_friends)
 
 #find where paul is
-paul=friends[-3]
-print(paul)
+paul=friends.index("Paul")
+print(f"pauls position in the list is:", paul)
+
 
 #arrange contacts alpabetically
 friends.sort
