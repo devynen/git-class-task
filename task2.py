@@ -10,3 +10,31 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+
+
+
+genres = ["adventure", "comedy", "animation", "fantasy", "sci-Fi", "documentary", "fantasy"]
+
+#to add drama to the end of list
+genres.append("drama") 
+print(genres)
+
+#to  delete one "fantasy" 
+del genres[-2:-1]
+print(genres)
+
+#to show how many genres will be shown
+total_genres = len(genres)
+print(f"total genres to be shown",total_genres)
+
+
+#to display second genre
+second_genre = genres[1]
+print(f"second genre is",second_genre)
+
+#to display second to the last genre 
+second_to_the_last = genres[-2]
+print(f"second to the last genre is",second_to_the_last)  
+
+
+
